@@ -1,0 +1,27 @@
+## For each inventory item, we have to keep track of the product code and the item's current location.
+1. Create a new class called `InventoryItem` that will represent an inventory item.
+2. Create a constructor for this class that takes in two parameters: the product code and the current location.
+3. Add a `getProductCode` method that returns the product code.
+4. Add a `getLocation` method that returns the current location.
+5. Add a `setLocation` method that takes in a new location.
+6. Add a `toString` method that returns the product code and the current location
+7. Create a `main` method that creates an inventory item and prints out its information.
+8. Run the program.
+
+## Generate two types of reports:
+1. A report that shows the number of each type of product in the inventory.
+2. A report that is used to re-order invetory items once they have been sold.
+
+
+i) A list of the different types of products that the company has for sale. 
+ For each product type, we will need to know the product code (sometimes called an SKU number),
+ a description, and the desired number of items that the company should have in its 
+ inventory for that type of product.
+
+ii) A list of the locations where inventory items can be stored.These locations 
+ might be a warehouse, a distribution center, a department store, or a home. Alternately,
+ a location might identify a particular shelf or aisle whithin a shop. For each location, 
+ we need to have a location code and a description identify that location.
+
+iii) A list of the inventory items that are currently available in the company's inventory.
+ For each inventory item, we need to know the product code, the current location.
